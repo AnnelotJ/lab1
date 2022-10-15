@@ -98,10 +98,10 @@ void next_generation(void) {
 					int aliveCell = 0;
 					int deathCell = 0;  
 					for (int a =0; a <= (gridWidth*gridHeigth); a++) { 						
-						if (grid [i] == 1){ 
+						if (grid [a] == 1){ 
 							++aliveCell;
 						}
-						else if (grid[i] == 0){ 
+						else if (grid[a] == 0){ 
 							++deathCell; 
 						}					
 					}
